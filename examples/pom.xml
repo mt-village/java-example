@@ -3,4 +3,20 @@
   <groupId>jp.mt.village</groupId>
   <artifactId>examples</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.18</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>23.6-jre</version>
+    </dependency>
+  </dependencies>
 </project>
